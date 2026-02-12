@@ -1,0 +1,39 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation_bar{
+    justify-content: space-around;
+    display:flex;
+    overflow-y:hidden;
+}
+.navigation_bar a{
+    font-size: 28px;
+    transition: color 0.5s ease-in-out;
+
+}
+.navigation_bar a:hover{
+    color:deeppink;
+}
+.hero{
+    font-size: 48px;
+    width:100%;
+    overflow-x: hidden;
+    min-height: 90vh;
+    margin-top: 10px;
+    background-image: url("hills-and-mountain-hiker-w7zi8lxfh8vvsejx.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero p{
+    color:rgb(0, 0, 0);
+    transition: color 0.5s ease-in-out;
+}
+.hero p:hover{
+    color: rgb(215, 0, 0);
+}
